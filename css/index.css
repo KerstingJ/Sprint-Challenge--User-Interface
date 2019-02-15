@@ -66,6 +66,10 @@ p {
     line-height: 1.4;
 }
 
+.test {
+    border: 2px solid red;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -200,4 +204,50 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.about-page .top-content {
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.about-page .middle-content {
+    width: 100%;
+    border-bottom: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 0px;
+}
+
+.about-page .middle-content .content-block {
+    border-bottom: 1px dashed black;
+    width: 47%;
+    margin-bottom: 50px;
+}
+
+.about-page .middle-content .content-block img {
+    width: 100%;
+}
+
+.about-page .middle-content .content-block p {
+    padding-left: 7.4px;
+    margin: 15px 0;
+}
+
+.about-page .middle-content .content-block button {
+    background: inherit;
+    font-family: inherit;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    height: 40px;
+    width: 130px;
+    margin-left: 7.4px;
+    margin-bottom: 15px;
+}
+
+.about-page .bottom-content {
+    display: block;
 }
